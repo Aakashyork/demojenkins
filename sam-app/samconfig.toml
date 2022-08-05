@@ -1,0 +1,11 @@
+version = 0.1
+[dev]
+[dev.deploy]
+[dev.deploy.parameters]
+stack_name = "demojenkins"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-rsu2ldg7uvud"
+s3_prefix = "demojenkins"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
